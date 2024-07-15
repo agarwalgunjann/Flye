@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DIGITAL MARKETING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#project-section">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#company-growth">Growth</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section" id="hero-section">
+      <div class="hero-content">
+        <div class="text-content">
+          <h4>AWARD WINNING</h4>
+          <h1>DIGITAL MARKETING</h1>
+          <h1>AGENCY</h1>
+          <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+          <button data-bs-toggle="modal" data-bs-target="#formModal">CONTACT US</button>
+        </div>
+        <div class="image-content">
+          <img src="images/hero.png" alt="Digital Marketing Agency">
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="exampleModalLabel">Talk to us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="https://getform.io/f/anlelvpa">
+              <div class="mb-3 input-group">
+                <input type="email" id="workEmail" name="workEmail" required placeholder=" ">
+                <label for="workEmail">Work email*</label>
+              </div>
+              <div class="first-last">
+                <div class="mb-3 input-group">
+                  <input type="text" id="firstName" name="firstName" required placeholder=" ">
+                  <label for="firstName">First name*</label>
+                </div>
+                <div class="mb-3 input-group">
+                  <input type="text" id="lastName" name="lastName" required placeholder=" ">
+                  <label for="lastName">Last name*</label>
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="termsCheck" name="termsCheck" required>
+                <label class="form-check-label" for="termsCheck">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Contact Us</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="about-section" id="about-section">
+      <div class="container">
+        <div class="inner-c">
+          <div class="inner-l">
+            <h5 class="section-title">WHAT WE DO</h5>
+            <h2 class="section-heading">SERVICES PROVIDE </h2>
+            <h2 class="section-heading">FOR YOU</h2>
+          </div>
+          <div class="inner-r">            
+            <p class="section-description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+          </div>
+        </div>
+        <div class="carousel">
+          <div class="services">
+            <div class="service">
+              <img src="images/service1.png" alt="Service 1">
+            </div>
+            <div class="service">
+              <img src="images/service2.png" alt="Service 2">
+            </div>
+            <div class="service highlight">
+              <h2><i class="bi bi-code-slash"></i></h2>
+              <h4>WEB DEVELOPMENT</h4>
+              <p>Morbi sed lacus nec risus. Pellentesque vitae ante ac at purus.</p>
+              <button>READ MORE  <i class="bi bi-arrow-right"></i></button>
+            </div>
+            <div class="service">
+              <img src="images/service3.png" alt="Service 3">
+            </div>
+            <div class="service">
+              <img src="images/service2.png" alt="Service 4">
+            </div>
+            <div class="service">
+              <img src="images/service1.png" alt="Service 5">
+            </div>
+            <div class="service highlight">
+              <h2><i class="bi bi-code-slash"></i></h2>
+              <h4>WEB DEVELOPMENT</h4>
+              <p>Morbi sed lacus nec risus. Pellentesque vitae ante ac at purus.</p>
+              <button>READ MORE  <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+      </div>
+    </section>
+    <section class="project-section" id="project-section">
+      <div class="container">
+        <h5>OUR PROJECT</h5>
+        <h2>WHY WE ARE BEST</h2>
+        <div class="project-inner">
+          <div class="project-left">
+            <img src="images/fruitimg.png" alt="Fruits">
+          </div>
+          <div class="project-right">
+            <div class="project-card">
+              <h4>Genderless Kei – Japan’s Hot</h4>
+              <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+            <div class="project-card highlight">
+              <h4>Better Strategy & Quality</h4>
+              <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+            <div class="project-card">
+              <h4>Genderless Kei – Japan’s Hot</h4>
+              <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="company-growth" id="company-growth">
+        <div class="container">
+          <h5>EXPERTS GROWTS</h5>
+          <h2>OUR COMPANY GROWTH</h2>
+          <div class="growth-cards">
+            <div class="growth-card">
+              <i class="bi bi-heart-fill"></i>
+              <h3>199 +</h3>
+              <p>Staticfied Customers</p>
+            </div>
+            <div class="growth-card">
+              <i class="bi bi-clock-fill"></i>
+              <h3>1591+</h3>
+              <p>Days Of Operation</p>
+            </div>
+            <div class="growth-card">
+              <i class="bi bi-check-circle-fill"></i>
+              <h3>283 +</h3>
+              <p>Complete Project</p>
+            </div>
+            <div class="growth-card">
+              <i class="bi bi-trophy-fill"></i>
+              <h3>75+</h3>
+              <p>Win Awards</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      const services = document.querySelector('.services');
+      const dots = document.querySelectorAll('.dot');
+      let currentIndex = 0;
+
+      function updateDots() {
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[currentIndex].classList.add('active');
+      }
+
+      function scrollServices() {
+        const serviceWidth = document.querySelector('.service').offsetWidth;
+        services.style.transform = `translateX(-${currentIndex * serviceWidth}px)`;
+      }
+
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          currentIndex = index;
+          updateDots();
+          scrollServices();
+        });
+      });
+
+      updateDots();
+    </script>
+  </body>
+</html>
